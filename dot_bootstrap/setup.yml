@@ -38,7 +38,7 @@
           # - bzip2
           # - bzip2-devel
           # - readline-devel
-          - sqlite
+          # - sqlite
           # - sqlite-devel
           # - openssl-devel
           # - tk-devel
@@ -70,7 +70,7 @@
           # - blender
           # - toilet
           - dotnet-sdk-8.0
-          - unar
+          # - unar
         state: present
         
 
