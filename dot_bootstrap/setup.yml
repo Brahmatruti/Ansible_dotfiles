@@ -30,14 +30,14 @@
           - zsh
           - fzf
           - tmux
-          - ffmpeg-free
-          - zlib
-          - zlib-devel
+          # - ffmpeg-free
+          # - zlib
+          # - zlib-devel
           - make
           - patch
-          - bzip2
-          - bzip2-devel
-          - readline-devel
+          # - bzip2
+          # - bzip2-devel
+          # - readline-devel
           - sqlite
           # - sqlite-devel
           # - openssl-devel
@@ -46,12 +46,12 @@
           # - xz-devel
           # - libuuid-devel
           # - gdbm-libs
-          - libnsl2
-          - luarocks
-          - wl-clipboard
+          # - libnsl2
+          # - luarocks
+          # - wl-clipboard
           # - fd-find
-          - gcc-c++
-          - doctl
+          # - gcc-c++
+          # - doctl
           # - helix
           # - "@Development Tools"
           # - "@C Development Tools and Libraries"
