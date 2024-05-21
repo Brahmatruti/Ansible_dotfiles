@@ -7,6 +7,5 @@ This automated setup is currently only configured for Fedora machines.
 ## How to run
 
 ```shell
-export GITHUB_USERNAME=logandonley
-sh -c "$(curl -fsLS get.chezmoi.io)" -- init --apply $GITHUB_USERNAME
-```
+
+sh -c "$(curl -fsLS get.chezmoi.io)" -- init --apply sh -c "$(curl -fsLS get.chezmoi.io)" -- init --apply https://github.com/$GITHUB_USERNAME/Ansible_dotfiles.git
