@@ -24,9 +24,9 @@
           - gnome-tweaks
           - gcc
           # - helm
-          - go-task
-          - ripgrep
-          - poetry
+          # - go-task
+          # - ripgrep
+          # - poetry
           - zsh
           - fzf
           - tmux
@@ -39,36 +39,36 @@
           - bzip2-devel
           - readline-devel
           - sqlite
-          - sqlite-devel
-          - openssl-devel
-          - tk-devel
-          - libffi-devel
-          - xz-devel
-          - libuuid-devel
-          - gdbm-libs
+          # - sqlite-devel
+          # - openssl-devel
+          # - tk-devel
+          # - libffi-devel
+          # - xz-devel
+          # - libuuid-devel
+          # - gdbm-libs
           - libnsl2
           - luarocks
           - wl-clipboard
-          - fd-find
+          # - fd-find
           - gcc-c++
           - doctl
           # - helix
           # - "@Development Tools"
           # - "@C Development Tools and Libraries"
-          - autoconf
-          - ncurses-devel
-          - wxGTK-devel
-          - wxBase
-          - java-1.8.0-openjdk-devel
-          - libiodbc
-          - unixODBC-devel.x86_64
-          - erlang-odbc.x86_64
-          - libxslt
-          - fop
+          # - autoconf
+          # - ncurses-devel
+          # - wxGTK-devel
+          # - wxBase
+          # - java-1.8.0-openjdk-devel
+          # - libiodbc
+          # - unixODBC-devel.x86_64
+          # - erlang-odbc.x86_64
+          # - libxslt
+          # - fop
           - podman-compose
-          - inotify-tools
-          - blender
-          - toilet
+          # - inotify-tools
+          # - blender
+          # - toilet
           - dotnet-sdk-8.0
           - unar
         state: present
