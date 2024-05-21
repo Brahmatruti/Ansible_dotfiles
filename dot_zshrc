@@ -17,7 +17,7 @@ alias k=kubectl
 alias fly=flyctl
 
 # bun completions
-[ -s "/home/ldonley/.bun/_bun" ] && source "/home/ldonley/.bun/_bun"
+[ -s "/home/narendra/.bun/_bun" ] && source "/home/narendra/.bun/_bun"
 
 # bun
 export BUN_INSTALL="$HOME/.bun"
