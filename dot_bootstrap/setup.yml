@@ -72,7 +72,7 @@
           - dotnet-sdk-8.0
           - unar
         state: present
-        ignore_errors: yes
+        
 
     - name: Change shell to zsh
       ansible.builtin.user:
@@ -107,7 +107,7 @@
       ansible.builtin.rpm_key:
         key: https://packages.microsoft.com/keys/microsoft.asc
         state: present
-        ignore_errors: yes
+        
         
     - name: Add Visual Studio Code Repo
       ansible.builtin.apt_repository:
@@ -122,7 +122,7 @@
       ansible.builtin.apt:
         name: code
         state: present
-        ignore_errors: yes
+        
         
     - name: Add Docker repo
       ansible.builtin.apt_repository:
@@ -251,7 +251,7 @@
           - org.gnome.meld
           - org.sqlitebrowser.sqlitebrowser
         state: present
-        ignore_errors: yes
+        
         
     - name: Ensure fonts directory
       ansible.builtin.file:
